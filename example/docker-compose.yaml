@@ -2,7 +2,7 @@ version: '3'
 
 services:
   gomodd-example:
-    image: gomodd:v1.20.3 
+    image: lyumikael/gomodd:v1.20.3 
     container_name: gomodd-example
     working_dir: /go/gomodd-example
     ports:
