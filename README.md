@@ -1,3 +1,3 @@
 go and modd for hotloading
  
-modd : https://github.com/cortesi/modd
+dockerhub : https://hub.docker.com/r/lyumikael/gomodd
