@@ -1,7 +1,7 @@
-FROM golang:1.20.3-alpine
+FROM golang:1.22.1-alpine
 
-ENV GOPROXY https://goproxy.cn,direct
-ENV TZ Asia/Shanghai
+ENV GOPROXY=https://goproxy.cn,direct
+ENV TZ=Asia/Shanghai
 
 RUN apk update --no-cache && apk add --no-cache tzdata
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime &&  echo $TZ >/etc/timezone
